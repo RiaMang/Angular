@@ -1,0 +1,9 @@
+C:\Users\Ria\Documents\GitHub\Angular\Angular\bin\Angular.dll.config
+C:\Users\Ria\Documents\GitHub\Angular\Angular\bin\Angular.dll
+C:\Users\Ria\Documents\GitHub\Angular\Angular\bin\Angular.pdb
+C:\Users\Ria\Documents\GitHub\Angular\Angular\bin\Angular.xml
+C:\Users\Ria\Documents\GitHub\Angular\Angular\obj\Debug\Angular.Resources.resources
+C:\Users\Ria\Documents\GitHub\Angular\Angular\obj\Debug\Angular.vbproj.GenerateResource.Cache
+C:\Users\Ria\Documents\GitHub\Angular\Angular\obj\Debug\Angular.dll
+C:\Users\Ria\Documents\GitHub\Angular\Angular\obj\Debug\Angular.xml
+C:\Users\Ria\Documents\GitHub\Angular\Angular\obj\Debug\Angular.pdb

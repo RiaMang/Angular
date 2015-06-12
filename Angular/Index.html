@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body ng-app="ang">
+    <style>
+        table {
+            background-color: gray;
+        }
+        table, td, th{
+            padding: 4px;
+        }
+    </style>
+    <div class="container" ng-controller="angCtrl as c">
+        <div class="row">
+            <!--<div class="col-md-3 gre">-->
+                <table>
+                    <tr>
+                        <th colspan="4"><textarea>{{c.num1}}</textarea></th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="btn btn-sm btn-success" ng-click="c.sel(1)">1</div>
+                        </td>
+                        <td>
+                            <div class="btn btn-sm btn-success" ng-click="c.sel(2)">2</div>
+                        </td>
+                        <td>
+                            <div class="btn btn-sm btn-success" ng-click="c.sel(3)">3</div>
+                        </td>
+                        <td>
+                            <div class="btn btn-sm btn-success" ng-click="c.sel(4)">4</div>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="btn btn-sm btn-success" ng-click="c.sel(5)">5</div>
+                        </td>
+                        <td>
+                            <div class="btn btn-sm btn-success" ng-click="c.sel(6)">6</div>
+                        </td>
+                        <td>
+                            <div class="btn btn-sm btn-success" ng-click="c.sel(7)">7</div>
+                        </td>
+                        <td>
+                            <div class="btn btn-sm btn-success" ng-click="c.sel(8)">8</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="btn btn-sm btn-success" ng-click="c.sel(9)">9</div>
+                        </td>
+                        <td>
+                            <div class="btn btn-sm btn-success" ng-click="c.sel(0)">0</div>
+                        </td>
+                        <td>
+                            <div class="btn btn-sm btn-success">_</div>
+                        </td>
+                        <td>
+                            <div class="btn btn-sm btn-danger" style="color:red" ng-click="c.selOp(5)">C</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="btn btn-sm btn-primary" ng-click="c.selOp(1)">+</div>
+                        </td>
+                        <td>
+                            <div class="btn btn-sm btn-primary" ng-click="c.selOp(2)">-</div>
+                        </td>
+                        <td>
+                            <div class="btn btn-sm btn-primary" ng-click="c.selOp(3)">*</div>
+                        </td>
+                        <td>
+                            <div class="btn btn-sm btn-primary" ng-click="c.selOp(4)">/</div>
+                        </td>
+
+                    </tr>
+                </table>
+            <!--</div>-->
+        </div>
+    </div>
+   
+
+    <script src="/Scripts/angular.min.js"></script>
+    <script src="/app/ang.js"></script>
+    <script src="/app/angctrl.js"></script>
+</body>
+</html>
